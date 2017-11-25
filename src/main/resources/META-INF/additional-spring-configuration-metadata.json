@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "dynamic.register.folderGroovyRoot",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.register.folderGroovyRoot."
+    },
+    {
+      "name": "dynamic.register.enabled",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.register.enabled."
+    }
+  ]
+}
