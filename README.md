@@ -2,7 +2,7 @@
 This is project auto compile groovy file to class and register Bean and Controller at runtime, project support by Spring boot frameworks
 
 ## Installation
-  * Create new Spring boot project. [SPRING INITIALIZR](http://start.spring.io/)
+  * Create new web project for Spring boot . [SPRING INITIALIZR](http://start.spring.io/)
   
   * Add repositories and dependency to file `pom.xml`:
   
