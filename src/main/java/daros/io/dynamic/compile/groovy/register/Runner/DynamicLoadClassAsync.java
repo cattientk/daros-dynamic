@@ -1,8 +1,8 @@
 package daros.io.dynamic.compile.groovy.register.Runner;
 
-import daros.io.core.register.DynamicRegisterGroovyFile;
-import daros.io.core.register.LoadClassListenerEven.GroovyFileWatchListener;
-import daros.io.core.register.util.DynamicUtil;
+import daros.io.dynamic.compile.groovy.register.DynamicRegisterGroovyFile;
+import daros.io.dynamic.compile.groovy.register.LoadClassListenerEven.GroovyFileWatchListener;
+import daros.io.dynamic.compile.groovy.register.util.DynamicUtil;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;

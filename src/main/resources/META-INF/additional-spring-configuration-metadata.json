@@ -1,4 +1,9 @@
 {
+  "groups": [
+    {
+      "name": "dynamic"
+    }
+  ],
   "properties": [
     {
       "name": "dynamic.register.folderGroovyRoot",

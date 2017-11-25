@@ -64,11 +64,38 @@
                 </configuration>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+            </plugin>
+            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
-
+    <developers>
+        <developer>
+            <name>Tien Tran</name>
+            <email>cattientk@gmail.com</email>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>GNU General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/cattientk/daros-dynamic.git</connection>
+        <developerConnection>scm:git:git@github.com:cattientk/daros-dynamic.git</developerConnection>
+        <url>https://github.com/cattientk/daros-dynamic</url>
+        <tag>HEAD</tag>
+    </scm>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>bintray</id>
+            <url>http://repo1.maven.org/maven2/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
