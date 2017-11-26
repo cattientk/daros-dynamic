@@ -68,5 +68,5 @@ This is project auto compile groovy file to class and register Bean and Controll
             }
         }
   * Open browser `http://localhost:8080/home`
-  * Change message return Method of class `DynamicService`
+  * Change message return Method `getMessage()` in class `DynamicService`
   * Reload `http://localhost:8080/home`
