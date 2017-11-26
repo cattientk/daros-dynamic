@@ -30,3 +30,40 @@ This is project auto compile groovy file to class and register Bean and Controll
           register:
             enabled: true
             folderGroovyRoot: D:/groovy/
+
+## Example
+  * Run project
+  * Create groovy service file: `service.groovy`
+
+        package dynamic.org;
+        
+        class DynamicService {
+            
+            public String getMessage() { 
+                return "Hello Works"; 
+            } 
+        }
+
+  * Crete groovy controller file: `controller.groovy`
+  
+        package dynamic.org;
+        
+        import org.springframework.web.bind.annotation.RestController;
+        import org.springframework.web.bind.annotation.RequestMapping;
+        import org.springframework.web.bind.annotation.RequestMethod;
+        import daros.io.core.annotation.MapByClassName;
+        import org.springframework.context.ApplicationContext;
+        import org.springframework.beans.factory.DisposableBean;
+
+        @RestController
+        class HelloController {
+
+            //class of groovy file
+            @MapByClassName("dynamic.org.DynamicService")
+            def dynamicService;
+
+            @RequestMapping(value = "/home", method = RequestMethod.GET)
+            String home() {
+                return dynamicService.getMessage();
+            }
+        }
