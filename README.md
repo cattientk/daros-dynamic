@@ -32,7 +32,7 @@ This is project auto compile groovy file to class and register Bean and Controll
             folderGroovyRoot: D:/groovy/
 
 ## Example
-  * Run project
+  * Run project [clone example project](https://github.com/cattientk/daros-dynamic/tree/master/example) 
   * Create groovy service file: `service.groovy`
 
         package dynamic.org;
