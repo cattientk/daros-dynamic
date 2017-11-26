@@ -1,0 +1,4 @@
+dynamic:
+  register:
+    enabled: true
+    folderGroovyRoot: groovy/
