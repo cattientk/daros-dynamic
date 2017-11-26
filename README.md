@@ -51,9 +51,8 @@ This is project auto compile groovy file to class and register Bean and Controll
         import org.springframework.web.bind.annotation.RestController;
         import org.springframework.web.bind.annotation.RequestMapping;
         import org.springframework.web.bind.annotation.RequestMethod;
+        
         import daros.io.dynamic.compile.groovy.annotation.MapByClassName;
-        import org.springframework.context.ApplicationContext;
-        import org.springframework.beans.factory.DisposableBean;
 
         @RestController
         class HelloController {
