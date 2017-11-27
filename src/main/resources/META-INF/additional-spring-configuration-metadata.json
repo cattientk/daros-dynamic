@@ -1,13 +1,16 @@
 {
   "groups": [
     {
-      "name": "dynamic"
+      "name": "dynamic",
+      "type": "daros.io.dynamic.compile.groovy.conf.properties.DynamicComponentProperties",
+      "sourceType" : "daros.io.dynamic.compile.groovy.conf.properties.DynamicComponentProperties"
     }
   ],
   "properties": [
     {
       "name": "dynamic.register.folderGroovyRoot",
       "type": "java.lang.String",
+      "sourceType" : "daros.io.dynamic.compile.groovy.conf.properties.DynamicComponentProperties",
       "description": "Description for dynamic.register.folderGroovyRoot."
     },
     {
